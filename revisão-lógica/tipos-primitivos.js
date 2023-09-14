@@ -1,5 +1,5 @@
 //tipos passados por valor
-// strings, number (int, floats(decimais)), boolean
+// strings, number (int, floats(decimais)), boolean (true or false)
 
 let minhaVar = "minha string";
 let minhaVar2 = 'minha "string" coms aspas duplas';
