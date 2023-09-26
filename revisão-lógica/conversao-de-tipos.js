@@ -6,7 +6,7 @@ let n1 = "oi";
 
 let n2 = 2;
 n2 = 15;
-n2 = n2.toString(2);
+n2 = n2.toString(17);
 
 console.log(n2, typeof n2);
 
