@@ -32,9 +32,9 @@ Comparação      !=
                 <=
                 >=
 
-Lógicos         &&
-                ||
-                !
+Lógicos         && (e)
+                || (ou)
+                !  (não)
 
 */
 
