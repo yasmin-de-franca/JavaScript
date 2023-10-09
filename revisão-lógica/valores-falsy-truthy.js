@@ -1,7 +1,7 @@
 // quais valores são considerados false ou true dentro de um condição?
 
 // falsy values: 0, "", NaN, undefined, null, false
-// truth: all others
+// truthy: todos os demais
 
 if (false) {
     console.log("true")
