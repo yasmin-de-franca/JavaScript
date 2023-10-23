@@ -20,13 +20,11 @@
 
 
         //precisa-se de uma expressão, e precisa fazer que em algum momento se torne false. Enquanto a expressão for verdadeira vai executar determinada ação em loop
-
-        let indice = 0 
+        let indice = 11
         while (indice <= 10) {
             document.write(`${n} x ${indice} = ${(indice * n)} <br>`)
             indice++ // <- para fazer com que o loop quebre
         }
-
         document.write("Saiu do loop while <br>") 
 
 
@@ -37,6 +35,14 @@
         document.write("Saiu do loop for <br>") 
 
 
+        //do while é executado pelo menos uma vez no código. Precisa garantir que vai ser usado uma vez.
+        do {
+            document.write(`${n} x ${indice} = ${(indice * n)} <br>`)
+            indice++
+        } while(indice <= 10) {
+
+        }
+        document.write("Saiu do loop do while <br>") 
         </script>
 </body>
 </html>
