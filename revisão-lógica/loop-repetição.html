@@ -1,0 +1,42 @@
+<!--do while, for, while-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let n = prompt("Digite um número")
+        
+        //document.write(`1 x ${n} = ${(1 * n)}<br>`)
+        //document.write(`2 x ${n} = ${(2 * n)}<br>`)
+        //document.write(`3 x ${n} = ${(3 * n)}<br>`)
+        //document.write(`4 x ${n} = ${(4 * n)}<br>`)
+        //document.write(`5 x ${n} = ${(5 * n)}<br>`)
+
+
+        //precisa-se de uma expressão, e precisa fazer que em algum momento se torne false. Enquanto a expressão for verdadeira vai executar determinada ação em loop
+
+        let indice = 0 
+        while (indice <= 10) {
+            document.write(`${n} x ${indice} = ${(indice * n)} <br>`)
+            indice++ // <- para fazer com que o loop quebre
+        }
+
+        document.write("Saiu do loop while <br>") 
+
+
+        //a diferença pro while é que precisa ter varíavel, uma expressão/verificação e também e cria-se um incremento para eretornar false, tudo dentro dos parentêses.
+        for(let j = 0; j <= 10; j++) {
+            document.write(`${n} x ${j} = ${(j * n)} <br>`)
+        }
+        document.write("Saiu do loop for <br>") 
+
+
+        </script>
+</body>
+</html>
