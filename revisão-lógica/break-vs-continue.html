@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    //Cuidado ao utilizar o continue no loop while, por quê precisa-se garantir que o indice ++ seja executado pelo menos uma vez. Somar antes do continue, caso contrário cairá em um loop infinito.
+    let n = prompt("Digite um número")
+
+    let indice = 0
+        while (indice <= 10) {
+            indice++ // <- para fazer com que o loop quebre
+            if(indice === 5){
+                continue
+            }
+            document.write(`${n} x ${indice} = ${(indice * n)} <br>`)
+        }
+        document.write("Saiu do loop while <br>") 
+
+        for(let j = 0; j <= 10; j++) {
+            if(j === 5){
+                continue
+            }
+            document.write(`${n} x ${j} = ${(j * n)} <br>`)
+        }
+        document.write("Saiu do loop for <br>") 
+
+        indice = 0
+        do {
+            if(indice > 10){
+            alert("indice maior que 10")
+            break
+        }
+            document.write(`${n} x ${indice} = ${(indice * n)} <br>`)
+            indice++
+        } while(indice <= 10) {
+
+        }
+        document.write("Saiu do loop do while <br>")
+</script>  
+</body>
+</html>
