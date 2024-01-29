@@ -1,5 +1,5 @@
 //OPERADORES ARITIMÉTICOS
-// +(adição) -(subtração) *(multiplicação) /(divisão) %(resto da divisão, porcentagem) **(potência)
+// +(adição) -(subtração) *(multiplicação) /(divisão) %(resto da divisão, porcentagem) ** ^(potência)
 
 let n1 = 10;
 let n2 = 5;

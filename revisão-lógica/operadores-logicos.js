@@ -13,7 +13,7 @@ true  -ou-  false   true
 false -ou-  true    true
 false -ou-  false   false
 
-Exp A   NOT A (!A)
+Exp A   Exp A (!A)
 true    false
 false   true
 */
