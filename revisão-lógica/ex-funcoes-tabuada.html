@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Tabuada - Funções</h1>
 
@@ -16,9 +18,18 @@
         const output = document.getElementsById("output")
 
         function mostrarTabuada() {
-            //output.innerHTML = ""
+            //output.innerHTML = "valor qualquer <br> pula linha"
 
-            //enunciado
+            //pedir para o usuario digitar um número
+            let n = parseFloat(prompt("Digite um número"))
+
+            let msg = ""
+            for (let i = 0; i <= 1000; i++) {
+                msg += `${n} x ${i} = ${(n * i)} <br>`
+            }
+            output.innerHTML = msg
+
+
             // mostrar tabuada de 1 a 1000
 
             //toda a informação que vem da interface é string. converta em número.
@@ -26,4 +37,5 @@
 
     </script>
 </body>
+
 </html>
